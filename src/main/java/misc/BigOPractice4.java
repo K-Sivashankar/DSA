@@ -1,3 +1,5 @@
+package misc;
+
 import org.junit.Test;
 
 public class BigOPractice4 {

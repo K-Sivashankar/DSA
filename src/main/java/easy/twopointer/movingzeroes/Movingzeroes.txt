@@ -1,0 +1,10 @@
+
+
+
+
+
+
+traverse through the array using fast pointer
+fast pointer will be increasing despite the if or else condition
+slow pointer will move only when the if cdn of non zero element is satisfied
+

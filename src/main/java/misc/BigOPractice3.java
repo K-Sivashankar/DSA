@@ -1,3 +1,5 @@
+package misc;
+
 public class BigOPractice3 {
     public static void main(String[] args) {
         int i = 0, j = 0;
