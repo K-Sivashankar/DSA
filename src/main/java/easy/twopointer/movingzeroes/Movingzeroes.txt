@@ -3,8 +3,11 @@
 
 
 
+intialise both fast & slowpointer to zero
 
 traverse through the array using fast pointer
+add a if cdn for fast pointer to check if current element is non zero
+if non zero swap arr[fast] & arr [slow]
 fast pointer will be increasing despite the if or else condition
 slow pointer will move only when the if cdn of non zero element is satisfied
 

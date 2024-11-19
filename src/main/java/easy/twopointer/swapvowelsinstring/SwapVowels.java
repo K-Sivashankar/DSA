@@ -1,7 +1,8 @@
 package easy.twopointer.swapvowelsinstring;
 
-import org.junit.Assert;
-import org.junit.Test;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 public class SwapVowels {
     @Test
@@ -10,6 +11,33 @@ public class SwapVowels {
         String expectedOutput = "Halle evoryeno! Welcemo te TEstloef";
         System.out.println(reverseVowels(expectedOutput));
         Assert.assertEquals(expectedOutput,reverseVowels(input));
+    }
+    @Test
+    public void test2()
+    {
+//        System.out.println(revVowels("IceCreAm"));
+        Assert.assertEquals(reverseVowels("IceCreAm"),"AceCreIm");
+    }
+
+    @Test
+    public void test3()
+    {
+        Assert.assertEquals(reverseVowels("aeiou"),"uoiea");
+
+    }
+
+    @Test
+    public void test4()
+    {
+        Assert.assertEquals(reverseVowels("bcd"),"bcd");
+
+    }
+
+    @Test
+    public void test5()
+    {
+
+        Assert.assertEquals(reverseVowels("abcd"),"abcd");
     }
 
     public String reverseVowels(String string) {
