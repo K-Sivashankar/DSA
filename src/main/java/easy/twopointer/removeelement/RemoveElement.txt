@@ -1,0 +1,6 @@
+Pseudocode:
+
+use 2 pointers
+left ->slow pointer
+right -> fast pointer
+
