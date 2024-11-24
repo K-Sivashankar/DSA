@@ -1,4 +1,4 @@
-package easy.twopointer.swapvowelsinstring;
+package easy.twopointer.strings.swapvowelsinstring;
 
 
 import org.testng.Assert;

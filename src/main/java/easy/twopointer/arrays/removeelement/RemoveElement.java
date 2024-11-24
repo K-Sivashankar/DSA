@@ -1,4 +1,4 @@
-package easy.twopointer.removeelement;
+package easy.twopointer.arrays.removeelement;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -30,6 +30,7 @@ public class RemoveElement {
                 int temp = a[i];
                 a[i] = a[j];
                 a[j++] = temp;
+//                a[j++]=a[i];
 
             }
  count=j;

@@ -1,4 +1,4 @@
-package easy.twopointer.movingzeroes;
+package easy.twopointer.arrays.movingzeroes;
 
 import org.junit.Assert;
 import org.junit.Test;

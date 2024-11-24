@@ -1,0 +1,12 @@
+brute force:
+
+Create a HashMap<Integer,Integer>
+Store the occurences of each integer
+Iterate the map & return the number having 1 occurence
+
+
+optimised:
+    iterate throuth the array
+    int xor=0;
+    xor = xor ^ array[i]
+    return xor

@@ -1,4 +1,4 @@
-package easy.twopointer.removeduplicates;
+package easy.twopointer.arrays.removeduplicates;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -21,10 +21,10 @@ public class RemoveDuplicatesFromArray {
     }
 
     public int removeDuplicates(int[] nums) {
-        int k=0;
-        for(int i=0;i<nums.length;i++)
+        int k=1;
+        for(int i=1;i<nums.length;i++)
         {
-            if(i==0|| nums[i]!=nums[i-1])
+            if( nums[i]!=nums[k-1])
             {
                 nums[k++]=nums[i];
             }

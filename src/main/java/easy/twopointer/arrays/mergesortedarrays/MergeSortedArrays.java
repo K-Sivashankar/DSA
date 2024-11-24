@@ -1,4 +1,4 @@
-package easy.twopointer.mergesortedarrays;
+package easy.twopointer.arrays.mergesortedarrays;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package easy.twopointer.distinctnosinarray;
+package easy.twopointer.arrays.distinctnosinarray;
 
 import org.junit.Test;
 

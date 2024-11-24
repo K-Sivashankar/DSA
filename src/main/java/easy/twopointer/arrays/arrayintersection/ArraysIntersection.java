@@ -1,4 +1,4 @@
-package easy.twopointer.arrayintersection;
+package easy.twopointer.arrays.arrayintersection;
 
 import org.junit.Assert;
 import org.junit.Test;

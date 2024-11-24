@@ -1,12 +1,9 @@
-package easy.twopointer.arrayintersection;
+package easy.twopointer.arrays.arrayintersection;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class ArrayIntersectionWithDS {
 @Test
@@ -14,6 +11,8 @@ public void test()
 {
     int[] nums1={1,2,2,3,4,5,6};
     int[] nums2={2,4,8};
+    Arrays.sort(nums1);
+    Arrays.sort(nums2);
     Assert.assertArrayEquals(new int[]{2,4},getIntersection(nums1,nums2));
 }
 

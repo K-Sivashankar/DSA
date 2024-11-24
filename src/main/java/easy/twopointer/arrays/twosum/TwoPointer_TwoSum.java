@@ -1,4 +1,4 @@
-package easy.twopointer.twosum;
+package easy.twopointer.arrays.twosum;
 
 import org.testng.annotations.Test;
 
