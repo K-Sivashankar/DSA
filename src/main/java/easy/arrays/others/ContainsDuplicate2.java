@@ -1,4 +1,4 @@
-package easy.arrays;
+package easy.arrays.others;
 
 import org.testng.annotations.Test;
 

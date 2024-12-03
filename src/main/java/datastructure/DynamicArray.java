@@ -43,6 +43,8 @@ public class DynamicArray {
     {
         Arrays.stream(arr).forEach(e->System.out.print(" "+e));
         System.out.println();
+        String s2= "ssijk";
+        s2.replace(String.valueOf(s2.charAt(0)),"");
     }
     @Test
     public void test()

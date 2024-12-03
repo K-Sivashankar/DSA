@@ -1,4 +1,4 @@
-package easy.arrays;
+package easy.arrays.others;
 
 import org.junit.Assert;
 import org.testng.annotations.Test;
@@ -24,6 +24,7 @@ public class DiagonalSum {
         int[][] a = {{5}};
         Assert.assertEquals(Diagonal(a), 5);
     }
+
 
 
     public static int Diagonal(int[][] a) {
@@ -52,10 +53,10 @@ public class DiagonalSum {
                     sum = sum + a[i][j];
                     System.out.println(i + "  " + j);
                 } else {
-                    if (j != 1 && i != 1) {
+//                    if (j != 1 && i != 1) {
                         sum = sum + a[i][j];
                         System.out.println(i + "  " + j);
-                    }
+//                    }
                 }
 
             }

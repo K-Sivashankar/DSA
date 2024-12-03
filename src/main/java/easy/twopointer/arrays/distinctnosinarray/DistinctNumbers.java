@@ -29,7 +29,7 @@ public class DistinctNumbers {
         int[] nums={4,7,7,2,2,1,3};
         System.out.println(findDistinctNaiveApproach(nums));
     }
-
+//1,2,2,3,4,7,7
     //SC for below is O(1)
     public int findDistinct_BetterApproach(int[] nums) {
         /*if (nums.length == 1) {

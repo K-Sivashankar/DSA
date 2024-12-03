@@ -1,6 +1,8 @@
 package easy.arrays.subarrays;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 import org.testng.Assert;
@@ -41,6 +43,14 @@ public class ZeroSum {
         Assert.assertTrue(zeroSum_BF(new int[] {2,-2}));
     }
 
+    /**
+     *
+     * @param arr
+     * @return boolean
+     * @author Sivashankar
+     * @since 1.1
+     * @
+     */
     public boolean zeroSum_BF(int[] arr) {
         int sum=0;
         Set<Integer> set = new HashSet<>();

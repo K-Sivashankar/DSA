@@ -25,12 +25,14 @@ public class TrappingRainWater {
         leftMaxHeights[0] = nums[0];
         rightMaxHeights[rightMaxHeights.length - 1] = nums[nums.length - 1];
         //find out left heights
+        //using prefix sum
         for (int i = 1; i < nums.length; i++) {
 
             leftMaxHeights[i] = Math.max(leftMaxHeights[i - 1], nums[i]);
         }
 
         //find out right heights
+        //using suffix sum
         for (int i = rightMaxHeights.length - 2; i >= 0; i--) {
 
             rightMaxHeights[i] = Math.max(rightMaxHeights[i + 1], nums[i]);
